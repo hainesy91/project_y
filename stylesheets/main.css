@@ -5,6 +5,12 @@
 }
 
 
+#navSearch {
+  float: right;
+  padding-top: 15px;
+}
+
+
 #welcome {
   text-align: center;
   margin-top: 30px;
@@ -16,7 +22,7 @@
 }
 
 #container {
-  height: 220px;
+  height: 400px;
   width: 100px;
   margin: 0 auto;
 }
@@ -46,4 +52,11 @@
 
 #box2:hover {
   background-color: orange;
+}
+
+footer{
+  background-color: orange;
+  position: relative;
+  margin: -8px;
+
 }
