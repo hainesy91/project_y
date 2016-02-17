@@ -1,3 +1,10 @@
+#navBar {
+  height: 50px;
+  background: green;
+  margin: -8px;
+}
+
+
 #welcome {
   text-align: center;
   margin-top: 30px;
@@ -5,4 +12,38 @@
   color: #008B8B;
   font-style: italic;
   font-size: 30px;
+  display: block;
+}
+
+#container {
+  height: 220px;
+  width: 100px;
+  margin: 0 auto;
+}
+
+#box1 {
+  min-height: 50px;
+  width: 110px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+#box2 {
+  min-height: 50px;
+  width: 110px;
+  border: 1px solid red;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+
+#box1:hover {
+  background-color: pink;
+}
+
+#box2:hover {
+  background-color: orange;
 }
