@@ -1,3 +1,10 @@
+body {
+  font-family: helvetica;
+  font-weight: none;
+  font-size: 20px;
+}
+
+
 #navBar {
   height: 50px;
   background: green;
@@ -59,4 +66,15 @@ footer{
   position: relative;
   margin: -8px;
 
+}
+
+.footerList {
+  list-style: none;
+  display: inline;
+}
+
+.footerList li {
+  display: inline;
+  margin:3%;
+  font-size: 23px;
 }
