@@ -1,0 +1,24 @@
+{
+  "name": "project_y",
+  "version": "1.0.0",
+  "description": "mini project with Anna",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hainesy91/project_y.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hainesy91/project_y/issues"
+  },
+  "homepage": "https://github.com/hainesy91/project_y#readme"
+}
