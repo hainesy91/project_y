@@ -4,6 +4,56 @@ body {
   font-size: 20px;
 }
 
+/********GRIDS*********/
+
+.box {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -4px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.box-1 {
+  width: 10%;
+}
+
+.box-2 {
+  width: 20%;
+}
+
+.box-3 {
+  width: 30%;
+}
+
+.box-4 {
+  width: 40%;
+}
+
+.box-5 {
+  width: 50%;
+}
+
+.box-6 {
+  width: 60%;
+}
+
+.box-7 {
+  width: 70%;
+}
+
+.box-8 {
+  width: 80%;
+}
+
+.box-9 {
+  width: 90%;
+}
+
+.box-10 {
+  width: 100%;
+}
+
 
 #navBar {
   height: 50px;
@@ -28,28 +78,27 @@ body {
   display: block;
 }
 
-#container {
-  height: 400px;
-  width: 100px;
-  display: inline;
+ #container { 
+  width: 80%;
+  display: block;
   margin: 0 auto;
 }
 
 #chinese {
-  min-height: 50px;
-  width: 160px;
+  /*min-height: 50px;
+  width: 160px;*/
   border: 1px solid blue;
   border-radius: 5px;
   text-align: center;
 }
 
 #indian {
-  min-height: 50px;
-  width: 160px;
+  /*min-height: 50px;
+  width: 160px;*/
   border: 1px solid red;
   border-radius: 5px;
   text-align: center;
-  margin: 0 auto;
+  /*margin: 0 auto;*/ 
 }
 
 
@@ -62,8 +111,8 @@ body {
 }
 
 #mexican {
-  min-height: 50px;
-  width: 160px;
+  /*min-height: 50px;
+  width: 160px;*/
   border-radius: 5px;
   text-align: center;
   border: 1px solid green;
@@ -73,7 +122,35 @@ body {
   background-color: red;
 }
 
+#italian {
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-align: center;
+}
+#italian:hover {
+  background-color: #ffffcc;
+}
 
+
+ #american {
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-align: center;
+ }
+
+#american:hover{
+  background-color: #ffcccc;
+}
+
+ #french {
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-align: center;
+ }
+ 
+ #french:hover {
+  background-color: yellow;
+ }
 
 footer{
   background-color: orange;
