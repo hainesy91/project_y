@@ -31,35 +31,49 @@ body {
 #container {
   height: 400px;
   width: 100px;
+  display: inline;
   margin: 0 auto;
 }
 
-#box1 {
+#chinese {
   min-height: 50px;
-  width: 110px;
+  width: 160px;
   border: 1px solid blue;
   border-radius: 5px;
   text-align: center;
-  display: inline-block;
 }
 
-#box2 {
+#indian {
   min-height: 50px;
-  width: 110px;
+  width: 160px;
   border: 1px solid red;
   border-radius: 5px;
   text-align: center;
-  display: inline-block;
+  margin: 0 auto;
 }
 
 
-#box1:hover {
+#chinese:hover {
   background-color: pink;
 }
 
-#box2:hover {
+#indian:hover {
   background-color: orange;
 }
+
+#mexican {
+  min-height: 50px;
+  width: 160px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid green;
+}
+
+#mexican:hover {
+  background-color: red;
+}
+
+
 
 footer{
   background-color: orange;
