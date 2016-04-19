@@ -86,71 +86,107 @@ body {
 }
 
 #chinese {
-  border: 1px solid blue;
+  border: 2px solid #FFD700;
   border-radius: 5px;
   text-align: center;
   padding: 30px;
+  background: url("http://honestcooking.com/wp-content/uploads/2013/01/Hakka-noodles-1-of-1-2.jpg") no-repeat center;
+  color: white;
 }
 
-#indian {
-  border: 1px solid red;
-  border-radius: 5px;
-  text-align: center;
-  padding: 30px;
+#chinese p {
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 #chinese:hover {
-  background-color: pink;
+  transform: scale(1.1);
 }
 
 #indian:hover {
-  background-color: orange;
+  transform: scale(1.1);
+}
+
+#italian:hover {
+  transform: scale(1.1);
+}
+
+#american:hover {
+  transform: scale(1.1);
+}
+
+#french:hover {
+  transform: scale(1.1);
+}
+
+#mexican:hover {
+  transform: scale(1.1);
+}
+
+#indian {
+  border: 2px solid #FF0000;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+  background: url("http://www.findmyfood.co.uk/wp-content/uploads/2012/12/indian-cuisine-2.jpg") no-repeat center;
+  color: white;
+}
+
+#indian p {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #mexican {
   border-radius: 5px;
   text-align: center;
-  border: 1px solid green;
+  border: 2px solid #1697A0;
   padding: 30px;
+  background: url("http://www.cumexsoc.org.uk/images/mexicanfood.jpg") no-repeat center;
+  color: white;
 }
 
-#mexican:hover {
-  background-color: red;
+#mexican p {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #italian {
-  border: 1px solid blue;
+  border: 2px solid #000000;
   border-radius: 5px;
   text-align: center;
   padding: 30px;
-}
-#italian:hover {
-  background-color: #ffffcc;
+  background: url("http://i.ndtvimg.com/i/2015-12/italian_625x350_41450863014.jpg") no-repeat center;
+  color: white;
 }
 
+#italian p {
+  background-color: rgba(0, 0, 0, 0.5)
+}
 
- #american {
-  border: 1px solid blue;
+#american {
+  border: 2px solid #0000FF;
   border-radius: 5px;
   text-align: center;
   padding: 30px;
- }
+  background: url("http://www.stayamelia.com/custimages/Misc/american-cuisine-2.jpg") no-repeat center;
+  color: white;
+}
 
-#american:hover{
-  background-color: #ffcccc;
+#american p {
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
  #french {
-  border: 1px solid blue;
+  border: 2px solid #3BB510;
   border-radius: 5px;
   text-align: center;
   padding: 30px;
+  background: url("http://www.euroclubschools.net/userimages/Escargot.jpg") no-repeat center;
+  color: white;
  }
- 
- #french:hover {
-  background-color: yellow;
+
+ #french p {
+  background-color: rgba(0, 0, 0, 0.5)
  }
+
 
 footer{
   background-color: #FF82A5;
