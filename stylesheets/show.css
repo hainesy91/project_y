@@ -3,6 +3,7 @@ div#container {
 }
 
 div#searchresults,
+
 div#display {
   border: 1px solid black;
   margin-top: 40px;
