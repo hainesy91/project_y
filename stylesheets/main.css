@@ -72,7 +72,7 @@ body {
   text-align: center;
   margin-top: 30px;
   font-family: helvetica;
-  color: #008B8B;
+  color: #12DB5C;
   font-style: italic;
   font-size: 30px;
   display: block;
@@ -81,7 +81,7 @@ body {
  #container { 
   width: 80%;
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 
 #chinese {
@@ -157,9 +157,10 @@ footer{
   position: fixed;
   left:0px;
   bottom:0px;
-  height:30px;
+  height: 40px;
   width:100%;
   padding: 10px;
+
 }
 
 .footerList {
@@ -168,19 +169,21 @@ footer{
 }
 
 .footerList li {
+  padding: 10px;
   display: inline;
-  margin:1%;
+  width: 60px;
 }
 
-ul.footerlist li a {
+.footerList li a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
 }
 
-input#mailingList {
-
+.footerList li a:hover {
+  text-decoration: underline;
 }
 
-button#mailingListSubmit {
+div#mailingListSection {
   float: right;
+  margin-right: 20px;
 }
