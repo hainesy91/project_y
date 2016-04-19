@@ -153,10 +153,13 @@ body {
  }
 
 footer{
-  background-color: orange;
-  position: relative;
-  margin: -8px;
-
+  background-color: #FF82A5;
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  padding: 10px;
 }
 
 .footerList {
@@ -166,6 +169,18 @@ footer{
 
 .footerList li {
   display: inline;
-  margin:3%;
-  font-size: 23px;
+  margin:1%;
+}
+
+ul.footerlist li a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+input#mailingList {
+
+}
+
+button#mailingListSubmit {
+  float: right;
 }
