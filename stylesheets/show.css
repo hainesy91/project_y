@@ -4,6 +4,16 @@ div#container {
   margin: 0 auto;
 }
 
+#homeLink {
+  text-decoration: none;
+  font-family: helvetica;
+  color: yellow;
+  display: inline-block;
+  margin: 15px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 div#searchresults,
 
 div#display {
