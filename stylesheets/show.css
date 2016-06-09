@@ -1,3 +1,5 @@
+@import url("animate.css");
+
 div#container {
   margin: 0 auto;
 }
@@ -8,6 +10,7 @@ div#display {
   border: 1px solid black;
   margin-top: 40px;
   border-radius: 4px;
+  -webkit-animation: bounceInUp 1s;
 }
 
 ul.filterOptions {
@@ -16,6 +19,7 @@ ul.filterOptions {
   border-radius: 4px;
   padding: 5px;
   margin-top: 40px;
+  -webkit-animation: bounceInUp 1s;
 }
 
 li.listHeader {
