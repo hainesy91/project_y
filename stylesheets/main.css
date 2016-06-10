@@ -212,7 +212,12 @@ footer{
 
 .footerList li a {
   text-decoration: none;
-  font-size: 14px;
+  font-family: helvetica;
+  color: yellow;
+  display: inline-block;
+  margin: 15px 15px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .footerList li a:hover {
