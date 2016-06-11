@@ -1,3 +1,5 @@
+@import url("animate.css");
+
 body {
   font-family: helvetica;
   font-weight: none;
@@ -67,22 +69,34 @@ body {
   padding-top: 15px;
 }
 
+#brandName {
+  text-align: center;
+  margin-top: 30px;
+  font-family: helvetica;
+  color: #fb003c;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  display: block;
+  -webkit-animation: bounceInDown 1s;
+}
 
 #welcome {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
   font-family: helvetica;
   color: #12DB5C;
   font-style: italic;
   font-size: 30px;
   display: block;
+  -webkit-animation: bounceInDown 1s;
 }
 
  #container { 
   width: 80%;
   display: block;
   margin: auto;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 
 #chinese {
