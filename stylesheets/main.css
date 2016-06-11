@@ -97,6 +97,7 @@ body {
   display: block;
   margin: auto;
   padding-top: 40px;
+  -webkit-animation: bounceInDown 2.5s;
 }
 
 #chinese {
