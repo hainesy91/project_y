@@ -2,6 +2,7 @@
 
 div#container {
   margin: 0 auto;
+  -webkit-animation: none;
 }
 
 #homeLink {
