@@ -30,7 +30,6 @@ div#display {
 
 ul.filterOptions {
   list-style: none;
-  border:1px solid orange;
   border-radius: 4px;
   padding: 5px;
   margin-top: 40px;
@@ -47,7 +46,7 @@ li.listHeader {
 }
 
 li.listItem {
-  border:1px solid pink;
+  border: 2px solid pink;
   border-radius: 4px;
   padding: 10px;
   margin: 10px 0 10px 0;
@@ -67,5 +66,6 @@ h1#listResultsTitle {
   font-family: helvetica;
   font-style: italic;
   text-align: center;
+  color: #0EBFE9;
 }
 
