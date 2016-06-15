@@ -14,6 +14,10 @@ div#container {
   font-weight: bold;
 }
 
+#homeLink:hover {
+  text-decoration: underline;
+}
+
 div#searchresults,
 
 div#display {
