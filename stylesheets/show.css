@@ -22,7 +22,7 @@ div#container {
 div#searchresults,
 
 div#display {
-  border: 1px solid black;
+  border: 2px solid #30b21b;
   margin-top: 40px;
   border-radius: 4px;
   -webkit-animation: bounceInUp 1s;
@@ -68,4 +68,30 @@ h1#listResultsTitle {
   text-align: center;
   color: #0EBFE9;
 }
+
+li.resultsItem1 {
+  -webkit-animation: fadeInUp 2s;
+}
+
+li.resultsItem2 {
+  -webkit-animation: fadeInUp 2.5s;
+}
+
+li.resultsItem3 {
+  -webkit-animation: fadeInUp 3s;
+}
+
+li.resultsItem4 {
+  -webkit-animation: fadeInUp 3.5s;
+}
+
+li.resultsItem5 {
+  -webkit-animation: fadeInUp 4s;
+}
+
+h1.restautantResult {
+  font-size: 20px;
+  color: black;
+}
+
 
