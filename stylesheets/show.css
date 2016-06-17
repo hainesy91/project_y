@@ -71,22 +71,27 @@ h1#listResultsTitle {
 
 li.resultsItem1 {
   -webkit-animation: fadeInUp 2s;
+  list-style: none;
 }
 
 li.resultsItem2 {
   -webkit-animation: fadeInUp 2.5s;
+  list-style: none;
 }
 
 li.resultsItem3 {
   -webkit-animation: fadeInUp 3s;
+  list-style: none;
 }
 
 li.resultsItem4 {
   -webkit-animation: fadeInUp 3.5s;
+  list-style: none;
 }
 
 li.resultsItem5 {
   -webkit-animation: fadeInUp 4s;
+  list-style: none;
 }
 
 h1.restautantResult {
