@@ -77,6 +77,10 @@ li.filteredResults {
   margin-right: 15px;
 }
 
+li.filteredResults:hover {
+  background-color: #00ff85;
+}
+
 li#resultsItem1 {
   -webkit-animation: fadeInUp 2s;
 }
