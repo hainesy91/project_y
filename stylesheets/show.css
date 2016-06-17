@@ -72,26 +72,41 @@ h1#listResultsTitle {
 li.resultsItem1 {
   -webkit-animation: fadeInUp 2s;
   list-style: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-bottom: 8px;
 }
 
 li.resultsItem2 {
   -webkit-animation: fadeInUp 2.5s;
   list-style: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-bottom: 8px;
 }
 
 li.resultsItem3 {
   -webkit-animation: fadeInUp 3s;
   list-style: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-bottom: 8px;
 }
 
 li.resultsItem4 {
   -webkit-animation: fadeInUp 3.5s;
   list-style: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-bottom: 8px;
 }
 
 li.resultsItem5 {
   -webkit-animation: fadeInUp 4s;
   list-style: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-bottom: 8px;
 }
 
 h1.restautantResult {
