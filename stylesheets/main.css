@@ -67,13 +67,14 @@ body {
 #navSearch {
   float: right;
   padding-top: 15px;
+  display: inline-block;
 }
 
 #brandName {
   text-align: center;
   margin-top: 30px;
   font-family: helvetica;
-  color: #fb003c;
+  color: #FFA300;
   font-weight: bold;
   font-style: italic;
   font-size: 40px;

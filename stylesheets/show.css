@@ -19,6 +19,18 @@ div#container {
   text-decoration: underline;
 }
 
+h1#navBarBrand {
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 500px;
+  font-family: helvetica;
+  color: #FFA300;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 35px;
+  -webkit-animation: zoomIn 1s;
+}
+
 div#searchresults,
 
 div#display {
