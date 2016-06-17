@@ -69,44 +69,32 @@ h1#listResultsTitle {
   color: #0EBFE9;
 }
 
-li.resultsItem1 {
+li.filteredResults {
+  list-style: none;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  margin-right: 15px;
+}
+
+li#resultsItem1 {
   -webkit-animation: fadeInUp 2s;
-  list-style: none;
-  border: 1px solid red;
-  border-radius: 5px;
-  margin-bottom: 8px;
 }
 
-li.resultsItem2 {
+li#resultsItem2 {
   -webkit-animation: fadeInUp 2.5s;
-  list-style: none;
-  border: 1px solid red;
-  border-radius: 5px;
-  margin-bottom: 8px;
 }
 
-li.resultsItem3 {
+li#resultsItem3 {
   -webkit-animation: fadeInUp 3s;
-  list-style: none;
-  border: 1px solid red;
-  border-radius: 5px;
-  margin-bottom: 8px;
 }
 
-li.resultsItem4 {
+li#resultsItem4 {
   -webkit-animation: fadeInUp 3.5s;
-  list-style: none;
-  border: 1px solid red;
-  border-radius: 5px;
-  margin-bottom: 8px;
 }
 
-li.resultsItem5 {
+li#resultsItem5 {
   -webkit-animation: fadeInUp 4s;
-  list-style: none;
-  border: 1px solid red;
-  border-radius: 5px;
-  margin-bottom: 8px;
 }
 
 h1.restautantResult {
